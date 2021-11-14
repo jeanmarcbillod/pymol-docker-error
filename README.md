@@ -1,4 +1,9 @@
-Error:  
+Running:
+```bash
+docker build .
+```
+
+Yields the following error message:  
 ```bash
 #11 53.27 aarch64-linux-gnu-g++ -pthread -std=c++11 -fPIC -D_PYMOL_LIBPNG -D_PYMOL_FREETYPE -DPYMOL_OPENMP -D_PYMOL_VMD_PLUGINS -D_HAVE_LIBXML -DMMTF_MSGPACK_USE_CPP11 -D_PYMOL_NO_MAIN -Iinclude -Icontrib/uiuc/plugins/include -Iov/src -Ilayer0 -Ilayer1 -Ilayer2 -Ilayer3 -Ilayer4 -Ilayer5 -Ibuild/generated -Icontrib/uiuc/plugins/molfile_plugin/src -Icontrib/mmtf-c -I/usr/include -I/usr/include/freetype2 -I/usr/include/libxml2 -I/usr/include/python3.8 -c -MMD layer3/Seeker.cpp -o build/temp.linux-aarch64-3.8/layer3/Seeker.o -Werror=return-type -Wunused-variable -Wno-switch -Wno-narrowing -Wno-char-subscripts -O3 -fopenmp
 #11 54.38 aarch64-linux-gnu-g++ -pthread -std=c++11 -fPIC -D_PYMOL_LIBPNG -D_PYMOL_FREETYPE -DPYMOL_OPENMP -D_PYMOL_VMD_PLUGINS -D_HAVE_LIBXML -DMMTF_MSGPACK_USE_CPP11 -D_PYMOL_NO_MAIN -Iinclude -Icontrib/uiuc/plugins/include -Iov/src -Ilayer0 -Ilayer1 -Ilayer2 -Ilayer3 -Ilayer4 -Ilayer5 -Ibuild/generated -Icontrib/uiuc/plugins/molfile_plugin/src -Icontrib/mmtf-c -I/usr/include -I/usr/include/freetype2 -I/usr/include/libxml2 -I/usr/include/python3.8 -c -MMD layer3/Selector.cpp -o build/temp.linux-aarch64-3.8/layer3/Selector.o -Werror=return-type -Wunused-variable -Wno-switch -Wno-narrowing -Wno-char-subscripts -O3 -fopenmp
